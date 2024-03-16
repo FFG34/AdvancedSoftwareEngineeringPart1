@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>AdvancedSoftwareEngineeringPart1.Tests</name>
+	</assembly>
+	<members>
+		<member name="T:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests">
+			<summary>
+				Represents a set of tests for the <see cref="T:AdvancedSoftwareEngineeringPart1.CommandParser"/> class.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests.Setup">
+			<summary>
+				Sets up the test environment before each test method is called.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests.ExecuteProgram_NullCommands_ThrowsArgumentNullException">
+			<summary>
+				Verifies that executing a null list of commands throws <see cref="T:System.ArgumentNullException"/>.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests.SyntaxCheck_NullCommand_ThrowsArgumentNullException">
+			<summary>
+				Verifies that checking the syntax of a null command throws <see cref="T:System.ArgumentNullException"/>.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests.SetPenColor_InvalidColor_ThrowsArgumentException">
+			<summary>
+				Verifies that setting the pen color with an invalid color throws <see cref="T:System.ArgumentException"/>.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests.SyntaxCheck_ValidAndInvalidCommands_ReturnsExpectedResult(System.String,System.Boolean)">
+			<summary>
+				Verifies that checking the syntax of valid and invalid commands returns the expected result.
+			</summary>
+			<param name="command">The command to check.</param>
+			<param name="expectedResult">The expected result of the syntax check.</param>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests.IsValidColor_ValidColors_ReturnsTrue">
+			<summary>
+				Verifies that checking valid colors returns true.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests.IsValidColor_InvalidColor_ReturnsFalse">
+			<summary>
+				Verifies that checking an invalid color returns false.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests.@ctor">
+			<summary>
+				Initializes a new instance of the <see cref="T:AdvancedSoftwareEngineeringPart1.Tests.CommandParserTests"/> class.
+			</summary>
+		</member>
+	</members>
+</doc>

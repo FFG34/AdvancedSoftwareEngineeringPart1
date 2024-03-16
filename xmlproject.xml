@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>AdvancedSoftwareEngineeringPart1</name>
+	</assembly>
+	<members>
+		<member name="T:AdvancedSoftwareEngineeringPart1.MainForm">
+			<summary>
+				Represents the main form of the application.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.#ctor">
+			<summary>
+				Initializes a new instance of the <see cref="T:AdvancedSoftwareEngineeringPart1.MainForm"/> class.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.button4_Click(System.Object,System.EventArgs)">
+			<summary>
+				Handles the click event of Button4.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.SyntaxCheck">
+			<summary>
+				Checks the syntax of program commands.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.UpdateProgramTextBox">
+			<summary>
+				Updates the program text box with program commands.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.button3_Click(System.Object,System.EventArgs)">
+			<summary>
+				Handles the click event of Button3.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.ProgramTextBox_TextChanged(System.Object,System.EventArgs)">
+			<summary>
+				Handles the text changed event of ProgramTextBox.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.RunButton_Click_1(System.Object,System.EventArgs)">
+			<summary>
+				Handles the click event of RunButton.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.button2_Click(System.Object,System.EventArgs)">
+			<summary>
+				Handles the click event of Button2.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.MainForm.button1_Click(System.Object,System.EventArgs)">
+			<summary>
+				Handles the click event of Button1.
+			</summary>
+		</member>
+		<member name="T:AdvancedSoftwareEngineeringPart1.CommandParser">
+			<summary>
+				Represents a parser for program commands.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.CommandParser.#ctor(System.Drawing.Graphics,System.Drawing.Size)">
+			<summary>
+				Initializes a new instance of the <see cref="T:AdvancedSoftwareEngineeringPart1.CommandParser"/> class.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.CommandParser.ExecuteProgram(System.Collections.Generic.List{System.String})">
+			<summary>
+				Executes a list of program commands.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.CommandParser.ExecuteCommand(System.String)">
+			<summary>
+				Executes a single program command.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.CommandParser.SyntaxCheck(System.String)">
+			<summary>
+				Checks the syntax of a program command.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.CommandParser.SetPenColor(System.String)">
+			<summary>
+				Sets the color of the pen used for drawing.
+			</summary>
+		</member>
+		<member name="M:AdvancedSoftwareEngineeringPart1.CommandParser.IsValidColor(System.String)">
+			<summary>
+				Determines whether the specified color is valid.
+			</summary>
+		</member>
+	</members>
+</doc>
